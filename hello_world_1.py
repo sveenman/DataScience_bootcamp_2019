@@ -12,7 +12,6 @@ print("A=", A)
 print("x=", x)
 print("y=", y)
 
-
 #
 #
 # import sys
