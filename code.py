@@ -6,3 +6,9 @@ def decor_shape(func):
     return _
 
 
+@decor_shape
+def lowercase_columns(df):
+    return df.rename(columns = str.lower)
+    
+
+
